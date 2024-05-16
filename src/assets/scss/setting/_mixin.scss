@@ -1,0 +1,7 @@
+@mixin ulli($ga){
+    @for $i from 1 through 3 {
+        #{$ga}:nth-child(#{$i}) {
+            width: 20px * $i;
+        }
+    }
+}
